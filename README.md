@@ -74,7 +74,7 @@ This project presents a **comprehensive interactive dashboard** built with Micro
 ### Full Dashboard View
 
 <div align="center">
-  <img src="final%20picture%20-%20project.png" alt="Tamil Nadu Population Dashboard - Full View" width="90%">
+  <img src="dashboard-output.png" alt="Tamil Nadu Population Dashboard - Full View" width="90%">
   <br>
   <em><b>Power BI Dashboard</b> — Population, Literacy, Urban-Rural Analysis Across 38 Districts</em>
 </div>
@@ -272,7 +272,7 @@ Tamil-Nadu-Dashboard-By-PowerBI/
 │
 ├── 📊 population mini project by powerbi.pbix  # Main Power BI dashboard file
 ├── 📄 TN_Districts_Data.csv                     # Raw dataset (38 districts, 11 metrics)
-├── 🖼️ final picture - project.png               # Dashboard screenshot/output image
+├── 🖼️ dashboard-output.png                       # Dashboard screenshot/output image
 ├── 🎬 Video of an output.mp4                    # Dashboard walkthrough video (44 MB)
 ├── 📄 .gitignore                                # Git ignore rules
 ├── 📄 LICENSE                                   # MIT License
