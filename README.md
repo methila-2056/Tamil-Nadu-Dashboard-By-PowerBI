@@ -15,7 +15,7 @@
 
 An end-to-end data analytics project visualizing **population distribution, literacy rates, sex ratio, urban-rural divide,** and **regional demographics** across all **38 districts** of Tamil Nadu using Microsoft Power BI.
 
-[🚀 Getting Started](#-getting-started) · [📸 Dashboard Preview](#-dashboard-preview) · [📊 Key Insights](#-key-insights) · [📁 Repository Structure](#-repository-structure)
+[🚀 Getting Started](#-getting-started) · [📸 Dashboard Output](#-dashboard-output) · [📊 Key Insights](#-key-insights) · [📁 Repository Structure](#-repository-structure)
 
 </div>
 
@@ -25,7 +25,7 @@ An end-to-end data analytics project visualizing **population distribution, lite
 
 - [Project Overview](#-project-overview)
 - [Key Features](#-key-features)
-- [Dashboard Preview](#-dashboard-preview)
+- [Dashboard Output](#-dashboard-output)
 - [Visualizations Included](#-visualizations-included)
 - [Key Insights](#-key-insights)
 - [Dataset Information](#-dataset-information)
@@ -69,21 +69,60 @@ This project presents a **comprehensive interactive dashboard** built with Micro
 
 ---
 
-## 📸 Dashboard Preview
+## 📸 Dashboard Output
+
+### Full Dashboard View
 
 <div align="center">
-
-![Tamil Nadu Dashboard Preview](final%20picture%20-%20project.png)
-
-*Dashboard Overview — Interactive Power BI report showing population, literacy, and regional analytics*
-
+  <img src="final%20picture%20-%20project.png" alt="Tamil Nadu Population Dashboard - Full View" width="90%">
+  <br>
+  <em><b>Power BI Dashboard</b> — Population, Literacy, Urban-Rural Analysis Across 38 Districts</em>
 </div>
 
-### 🎬 Output Video
+<br>
 
-A recorded walkthrough of the dashboard interactions is available:
+### 🎬 Video Output
 
-> 📹 [Video of an output.mp4](Video%20of%20an%20output.mp4) — Full dashboard navigation and filter demonstrations
+<div align="center">
+  <a href="Video%20of%20an%20output.mp4">
+    <img src="https://img.shields.io/badge/▶_Watch-Dashboard_Walkthrough-blue?style=for-the-badge&logo=github" alt="Watch Dashboard Video">
+  </a>
+  <br>
+  <em>Click above to watch the full interactive dashboard walkthrough</em>
+</div>
+
+<br>
+
+### 📊 Output Summary
+
+| Output Component | Description | Status |
+|:-----------------|:------------|:------:|
+| 🖼️ **Dashboard Screenshot** | Full dashboard overview with all visualizations | ✅ Included |
+| 🎬 **Video Walkthrough** | Interactive demo showing filters, tooltips, and drill-throughs | ✅ Included |
+| 📄 **Dataset** | Raw CSV with 38 districts and 11 metrics | ✅ Included |
+| 📊 **Power BI File** | Editable `.pbix` with all data models and DAX measures | ✅ Included |
+
+### 🔍 What the Dashboard Shows
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    DASHBOARD OUTPUT BREAKDOWN                    │
+├─────────────────┬─────────────────┬─────────────────────────────┤
+│  KPI Cards      │  Treemap        │  Region Slicer              │
+│  • Total Pop.   │  • District     │  • North / South / East     │
+│  • Avg Literacy │    comparison   │  • West / Central           │
+│  • Urban %      │  • Proportional │  • Dynamic filtering        │
+├─────────────────┼─────────────────┼─────────────────────────────┤
+│  Bar Charts     │  Donut Chart    │  Interactive Map            │
+│  • Top districts│  • Urban 30.14% │  • Geographic density       │
+│    by literacy  │  • Rural 69.86% │  • District boundaries      │
+│  • Top districts│  • Split view   │  • Population heatmap       │
+│    by population│                 │                             │
+├─────────────────┴─────────────────┴─────────────────────────────┤
+│  Area Chart: Population Distribution Trend Across Districts     │
+│  Data Table: Bilingual District Names (English + Tamil)         │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -231,13 +270,14 @@ cd Tamil-Nadu-Dashboard-By-PowerBI
 ```
 Tamil-Nadu-Dashboard-By-PowerBI/
 │
-├── 📊 population project pbi1.pbix    # Main Power BI dashboard file
-├── 📄 TN_Districts_Data.csv            # Raw dataset (38 districts)
-├── 🖼️ final picture - project.png      # Dashboard screenshot/preview
-├── 🎬 Video of an output.mp4           # Dashboard walkthrough video
-├── 📄 tn_districts_data.pbids          # Power BI data source file
-├── 📄 .gitattributes                   # Git LFS configuration
-└── 📄 README.md                        # Project documentation
+├── 📊 population mini project by powerbi.pbix  # Main Power BI dashboard file
+├── 📄 TN_Districts_Data.csv                     # Raw dataset (38 districts, 11 metrics)
+├── 🖼️ final picture - project.png               # Dashboard screenshot/output image
+├── 🎬 Video of an output.mp4                    # Dashboard walkthrough video (44 MB)
+├── 📄 .gitignore                                # Git ignore rules
+├── 📄 LICENSE                                   # MIT License
+├── 📄 CONTRIBUTING.md                           # Contribution guidelines
+└── 📄 README.md                                 # Project documentation
 ```
 
 ---
